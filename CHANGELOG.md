@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.8.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.7.0...chrome-devtools-mcp-v1.8.0) (2026-08-11)
+
+
+### 🎉 Features
+
+* add optional stack traces to list_console_messages ([#2505](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2505)) ([85c73a0](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/85c73a0abc85a2a4e8b7705955dddcede543ebae))
+* add PWA automation tools ([#2430](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2430)) ([0ea5c8d](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/0ea5c8d15b8db68a279cc0935c28672ad606e466)), closes [#2270](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2270)
+* allow evaluate_script to skip the stable DOM wait ([#2346](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2346)) ([781e2fb](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/781e2fb98c6520f6dd0deb0d6ed77a18300d438f))
+* Show self and retained sizes for edges ([#2529](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2529)) ([2a7eb76](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/2a7eb76fb01d5e22cdb55f9f0115918d6696c3db))
+
+
+### 🛠️ Fixes
+
+* do not enable invalidation tracking in performance traces ([#2500](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2500)) ([f00778d](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/f00778d6bd4008e69b29b405a56bb1233aab45ac)), closes [#2499](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2499)
+* **input:** select empty-value options by text ([#2501](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2501)) ([b969c45](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/b969c45c657ad42dcdb7d3e11475c483a959e1b3))
+
+
+### 📄 Documentation
+
+* add Bob MCP client configuration ([#2364](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2364)) ([5c16940](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/5c1694080925934c74d48f7c6faa74d94ea7c7f7))
+
 ## [1.7.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.6.0...chrome-devtools-mcp-v1.7.0) (2026-08-10)
 
 
